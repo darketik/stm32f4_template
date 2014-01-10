@@ -11,16 +11,16 @@ Eclipse template project for:
   - linker, openocd and gdb scripts 
   - STM32F4 standard peripherals drivers
 - Defined symbols:
-  USE_STDPERIPH_DRIVER
-  USE_STM32F4_DISCOVERY
-  STM32F40_41xxx
-  __VFP_FP__     not sure to be necessary, to be checked
-  __FPU_PRESENT=1
-  ARM_MATH_CM4
-  HSE_VALUE=8000000
-  (USEOTG_MODE
-  USE_HOST_MODE
-  USE_USB_OTG_FS
+  - USE_STDPERIPH_DRIVER
+  - USE_STM32F4_DISCOVERY
+  - STM32F40_41xxx
+  - \_\_VFP\_FP__     not sure to be necessary, to be checked
+  - \_\_FPU_PRESENT=1
+  - ARM_MATH_CM4
+  - HSE_VALUE=8000000
+  - USE_OTG_MODE
+  - USE_HOST_MODE
+  - USE_USB_OTG_FS
   
 -  !! Warning !! : Don't forget to change binary name into gdb script 'stm32f407vg_flash_and_debug.script'
 before calling it.
